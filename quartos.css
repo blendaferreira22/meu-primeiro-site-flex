@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/*---------------------------SEÇAO TOPO---------------------------*/
+
+.cabecalho{
+  font-size:23px;
+  color: rgb(116, 2, 2);
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  padding: 15px 60px;
+  background-color: rgb(247, 200, 157);
+  border-bottom: 2px solid rgba(150, 87, 29, 0.774);
+  display: flex;
+  justify-content: space-between;
+  top:0px;
+  left:0px;
+  z-index: 1000;
+  position: fixed;
+}
+.cabecalho h1{
+  font-size: 25px;
+}
+.menu{
+  word-spacing: 5px;
+}
+.cabecalho span{
+  color: blue;
+}
+.paralax1{
+  width: 100%;
+  height: 850px;
+  font-size: 25px;
+  display:flex;
+  flex: 1 0 60%;
+  justify-content: center; 
+  align-items: center;
+  opacity: 70px;
+  background-image: url('imagem/icones/img-fundo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.topo-2{
+  width: 500px;
+  height: 200px;
+  color: rgb(250, 250, 250);
+  font-family: 'Source Sans Pro' serif;
+  padding: 40px 0px; 
+  text-align: center;
+  font-weight: bold;
+  text-decoration:none;
+  background-color: rgba(31, 150, 124, 0.644);     
+  border: 3px solid white;     
+  opacity: 100%;
+}
